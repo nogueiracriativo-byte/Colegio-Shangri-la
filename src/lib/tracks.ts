@@ -56,7 +56,7 @@ export const tracks: Track[] = trackData.map((item, index) => {
     id: index + 1,
     name: item.name,
     slug: slugify(item.name),
-    audioUrl: driveId ? `https://drive.google.com/uc?export=download&id=${driveId}` : '',
+    audioUrl: driveId ? `https://docs.google.com/uc?export=download&id=${driveId}` : '',
     imageUrl: placeholder?.imageUrl || `https://picsum.photos/seed/${index + 1}/400/400`,
     imageHint: placeholder?.imageHint || 'abstract',
   };
