@@ -1,3 +1,124 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "Album art for Alexandre Nobre de Souza Carvalho",
+      "imageUrl": "https://images.unsplash.com/photo-1662586684776-5387c4d571cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMG11c2ljfGVufDB8fHx8MTc1ODU4Nzc1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract music"
+    },
+    {
+      "id": "2",
+      "description": "Album art for Arthur da Silva Rodrigues",
+      "imageUrl": "https://images.unsplash.com/photo-1732950092748-04ee6e485bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2xvcmZ1bCUyMHNvdW5kfGVufDB8fHx8MTc1ODY0ODY5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colorful sound"
+    },
+    {
+      "id": "3",
+      "description": "Album art for Bernardo Oliveira Souza Beldoino",
+      "imageUrl": "https://images.unsplash.com/photo-1738687221127-c360d3087f52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkaWdpdGFsJTIwd2F2ZXN8ZW58MHx8fHwxNzU4NTk5NTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital waves"
+    },
+    {
+      "id": "4",
+      "description": "Album art for Daniel Silva Serra",
+      "imageUrl": "https://images.unsplash.com/photo-1659823449893-c1e106e10a98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzeW50aHdhdmUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4NjQ1NzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "synthwave landscape"
+    },
+    {
+      "id": "5",
+      "description": "Album art for Enzo Gabriel Santos da Silva",
+      "imageUrl": "https://images.unsplash.com/photo-1653454773571-e6937b508048?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdWRpbyUyMHNwZWN0cnVtfGVufDB8fHx8MTc1ODYxMTM2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "audio spectrum"
+    },
+    {
+      "id": "6",
+      "description": "Album art for Enzo Gomes Leal",
+      "imageUrl": "https://images.unsplash.com/photo-1618972677731-df9c90bdc48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW50YWdlJTIwdmlueWx8ZW58MHx8fHwxNzU4NjI3ODQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage vinyl"
+    },
+    {
+      "id": "7",
+      "description": "Album art for Giovanna Dantas da Silva",
+      "imageUrl": "https://images.unsplash.com/photo-1676408576346-65bcebe33513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnbG93aW5nJTIwbmVvbnxlbnwwfHx8fDE3NTg2Njk5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing neon"
+    },
+    {
+      "id": "8",
+      "description": "Album art for Heloísa Gomes Rocha",
+      "imageUrl": "https://images.unsplash.com/photo-1722658192928-fe1bfaa609c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZXJlbmUlMjBuYXR1cmV8ZW58MHx8fHwxNzU4NTkwOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serene nature"
+    },
+    {
+      "id": "9",
+      "description": "Album art for Jorge Miguel Dias Piedade",
+      "imageUrl": "https://images.unsplash.com/photo-1665440989477-06cb0bd73a40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dXJiYW4lMjBjaXR5c2NhcGV8ZW58MHx8fHwxNzU4NjEzOTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "urban cityscape"
+    },
+    {
+      "id": "10",
+      "description": "Album art for Matheus Luna Santiago",
+      "imageUrl": "https://images.unsplash.com/photo-1605106702842-01a887a31122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnZW9tZXRyaWMlMjBwYXR0ZXJuc3xlbnwwfHx8fDE3NTg1ODU3OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "geometric patterns"
+    },
+    {
+      "id": "11",
+      "description": "Album art for Matheus Rocha Queiroz",
+      "imageUrl": "https://images.unsplash.com/photo-1711560705614-0bf664b26f58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3NtaWMlMjBnYWxheHl8ZW58MHx8fHwxNzU4NjY5OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cosmic galaxy"
+    },
+    {
+      "id": "12",
+      "description": "Album art for Milena Cristina Jesus Lima",
+      "imageUrl": "https://images.unsplash.com/photo-1651053535891-e345c08f8977?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkcmVhbXklMjBjbG91ZHN8ZW58MHx8fHwxNzU4NjY5OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dreamy clouds"
+    },
+    {
+      "id": "13",
+      "description": "Album art for Pedro Caetano Fernandes",
+      "imageUrl": "https://images.unsplash.com/photo-1624533523809-3d27d9ea6d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaW5pbWFsaXN0JTIwZGVzaWdufGVufDB8fHx8MTc1ODU4NDk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist design"
+    },
+    {
+      "id": "14",
+      "description": "Album art for Pedro Gardenal de Andrade",
+      "imageUrl": "https://images.unsplash.com/photo-1555301268-b461d4aa38fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyZXRybyUyMGZ1dHVyZXxlbnwwfHx8fDE3NTg2Njk5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retro future"
+    },
+    {
+      "id": "15",
+      "description": "Album art for Ryan Ramos Mafaldo",
+      "imageUrl": "https://images.unsplash.com/photo-1687276078095-7b8f870e5c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvY2VhbiUyMGRlcHRofGVufDB8fHx8MTc1ODY2OTk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ocean depth"
+    },
+    {
+      "id": "16",
+      "description": "Album art for Sofia Oliveira Brito",
+      "imageUrl": "https://images.unsplash.com/photo-1445346753792-6c667d917349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmb3Jlc3QlMjBsaWdodHxlbnwwfHx8fDE3NTg2NTI3MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest light"
+    },
+    {
+      "id": "17",
+      "description": "Album art for Sophia Bonifácio da Silva",
+      "imageUrl": "https://images.unsplash.com/photo-1711675102902-792c676dc5ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2aWJyYW50JTIwY29sb3JzfGVufDB8fHx8MTc1ODU4Nzc1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vibrant colors"
+    },
+    {
+      "id": "18",
+      "description": "Album art for Sophia Vinecarti de Oliveira",
+      "imageUrl": "https://images.unsplash.com/photo-1640007689958-d49cef861e4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYWludGVkJTIwdGV4dHVyZXxlbnwwfHx8fDE3NTg2Njk5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "painted texture"
+    },
+    {
+      "id": "19",
+      "description": "Album art for Theo Knablen de Souza",
+      "imageUrl": "https://images.unsplash.com/photo-1541296239751-35023f37d0f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb3VudGFpbiUyMHBlYWt8ZW58MHx8fHwxNzU4NTk1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain peak"
+    },
+    {
+      "id": "20",
+      "description": "Album art for Victor Hugo dos Santos Queiroz",
+      "imageUrl": "https://images.unsplash.com/photo-1477840539360-4a1d23071046?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuaWdodCUyMHNreXxlbnwwfHx8fDE3NTg1ODY4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "night sky"
+    }
+  ]
 }
