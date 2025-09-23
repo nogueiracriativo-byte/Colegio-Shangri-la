@@ -1,6 +1,5 @@
 "use client";
 
-import { useRef, useEffect, useState } from 'react';
 import type { Track } from '@/lib/tracks';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -14,23 +13,10 @@ interface AudioPlayerProps {
 }
 
 export default function AudioPlayer({ track, nextTrackSlug, prevTrackSlug }: AudioPlayerProps) {
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  useEffect(() => {
-    if (isClient && audioRef.current) {
-        audioRef.current.src = track.audioUrl;
-    }
-  }, [track.audioUrl, isClient]);
-
   return (
     <div className="w-full max-w-md p-4 rounded-lg bg-card/50 backdrop-blur-sm mt-8">
       
-      {isClient && <audio ref={audioRef} controls className="w-full" />}
+      <iframe src={track.audioUrl} width="100%" height="60" allow="autoplay"></iframe>
       
       <div className="flex items-center justify-center gap-4 mt-4">
         <Link href={prevTrackSlug ? `/track/${prevTrackSlug}` : '#'} passHref>
