@@ -2,6 +2,9 @@ import { tracks } from '@/lib/tracks';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import AudioPlayer from '@/components/AudioPlayer';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { ChevronLeft } from 'lucide-react';
 
 type TrackPageProps = {
   params: {
@@ -17,22 +20,22 @@ export async function generateStaticParams() {
 
 export default function TrackPage({ params }: TrackPageProps) {
   const { slug } = params;
-  const trackIndex = tracks.findIndex((t) => t.slug === slug);
+  const track = tracks.find((t) => t.slug === slug);
 
-  if (trackIndex === -1) {
+  if (!track) {
     notFound();
   }
 
-  const track = tracks[trackIndex];
-  
-  const nextTrackIndex = (trackIndex + 1) % tracks.length;
-  const prevTrackIndex = (trackIndex - 1 + tracks.length) % tracks.length;
-
-  const nextTrack = tracks[nextTrackIndex];
-  const prevTrack = tracks[prevTrackIndex];
-
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center p-4">
+      <div className="absolute top-4 left-4">
+        <Button asChild variant="ghost" size="icon">
+          <Link href="/">
+            <ChevronLeft />
+            <span className="sr-only">Voltar</span>
+          </Link>
+        </Button>
+      </div>
       <div className="relative flex flex-col items-center text-center max-w-lg w-full">
         <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-lg overflow-hidden shadow-2xl shadow-black/50">
           <Image
@@ -48,13 +51,11 @@ export default function TrackPage({ params }: TrackPageProps) {
         
         <div className="mt-6">
           <h1 className="text-2xl sm:text-3xl font-bold text-primary tracking-tight">{track.name}</h1>
-          <p className="text-base text-muted-foreground mt-1">Artista Desconhecido</p>
+          <p className="text-base text-muted-foreground mt-1">Colégio Shangri-lá</p>
         </div>
 
         <AudioPlayer 
           track={track}
-          nextTrackSlug={nextTrack.slug}
-          prevTrackSlug={prevTrack.slug}
         />
       </div>
     </div>
