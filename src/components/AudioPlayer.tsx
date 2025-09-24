@@ -9,9 +9,12 @@ interface AudioPlayerProps {
 export default function AudioPlayer({ track }: AudioPlayerProps) {
   return (
     <div className="w-full max-w-md p-4 rounded-lg bg-card/50 backdrop-blur-sm mt-8">
-      <audio controls src={track.audioUrl} className="w-full">
-        Your browser does not support the audio element.
-      </audio>
+      <iframe 
+        src={track.audioUrl}
+        className="w-full h-20 rounded-md"
+        allow="autoplay"
+        title={`Audio player for ${track.name}`}
+      ></iframe>
     </div>
   );
 }
