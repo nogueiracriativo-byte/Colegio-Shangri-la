@@ -37,7 +37,7 @@ export default function TrackPage({ params }: TrackPageProps) {
         </Button>
       </div>
       <div className="relative flex flex-col items-center text-center max-w-lg w-full">
-        <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-lg overflow-hidden shadow-2xl shadow-black/50">
+        <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg overflow-hidden shadow-2xl shadow-black/50">
           <Image
             src={track.imageUrl}
             alt={`Album art for ${track.name}`}
