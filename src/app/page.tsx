@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter className="p-3">
-                <h3 className="font-semibold text-sm truncate text-primary-foreground group-hover:text-accent transition-colors">
+                <h3 className="font-semibold text-sm truncate text-primary group-hover:text-accent transition-colors">
                   {track.name}
                 </h3>
               </CardFooter>
