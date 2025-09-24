@@ -1,9 +1,23 @@
+"use client";
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { tracks } from '@/lib/tracks';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredTracks, setFilteredTracks] = useState(tracks);
+
+  useEffect(() => {
+    const results = tracks.filter((track) =>
+      track.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredTracks(results);
+  }, [searchTerm]);
+
   return (
     <main className="min-h-screen container mx-auto p-4 sm:p-6 lg:p-8">
       <header className="text-center my-8 md:my-12">
@@ -14,8 +28,17 @@ export default function Home() {
           Sua galeria de áudios pessoal.
         </p>
       </header>
+      <div className="mb-8 max-w-lg mx-auto">
+        <Input
+          type="text"
+          placeholder="Pesquisar por nome..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full"
+        />
+      </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
-        {tracks.map((track) => (
+        {filteredTracks.map((track) => (
           <Link href={`/track/${track.slug}`} key={track.id} className="group">
             <Card className="overflow-hidden bg-card border-transparent hover:bg-card/80 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/10">
               <CardContent className="p-0">
